@@ -1,13 +1,13 @@
 on:
   push:
     branches:
-      - dashing-devel
+      - eloquent-devel
     paths-ignore:
       - 'docs/**'
       - '**.md'
   pull_request:
     branches:
-      - dashing-devel
+      - eloquent-devel
     paths-ignore:
       - 'docs/**'
       - '**.md'
@@ -19,8 +19,8 @@ jobs:
     strategy:
       matrix:
         env:
-          - { ROS_DISTRO: dashing, ROS_REPO: ros }
-          - { ROS_DISTRO: dashing, ROS_REPO: testing }
+          - { ROS_DISTRO: eloquent, ROS_REPO: ros }
+          - { ROS_DISTRO: eloquent, ROS_REPO: testing }
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
