@@ -2,15 +2,40 @@
 Changelog for package omni_turtlesim
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.1.0 (2020-07-16)
+2.2.0 (2020-07-18)
 ------------------
-* docs: Add README and LICENSE (`#14 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/14>`_)
-* feat: Update package description (`#13 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/13>`_)
-* fix: Rename package name in launch (`#11 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/11>`_)
-* feat: Add omni control (`#10 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/10>`_)
-* feat: Rename package (`#8 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/8>`_)
+* docs: Add README and LICENSE (`#17 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/17>`_)
+* ci: Update CI name for logging (`#18 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/18>`_)
+* feat: Update package description (`#16 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/16>`_)
+* fix: Rename package name in launch (`#5 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/5>`_)
+* feat: Add omni control (`#4 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/4>`_)
+* feat: Rename package (`#3 <https://github.com/Tiryoh/omni_turtlesim_ros2/issues/3>`_)
 * ci: Add industrial_ci settings
 * Contributors: Daisuke Sato, Tiryoh
+
+1.2.4 (2020-06-12)
+------------------
+* add step value to turtlesim color parameters (`#91 <https://github.com/ros/ros_tutorials/issues/91>`_)
+
+1.2.3 (2020-06-05)
+------------------
+* update Foxy turtle (`#90 <https://github.com/ros/ros_tutorials/issues/90>`_)
+* Contributors: Dirk Thomas
+
+1.2.2 (2020-06-03)
+------------------
+* add Foxy turtle (`#89 <https://github.com/ros/ros_tutorials/issues/89>`_)
+* Contributors: Jacob Perron
+
+1.2.1 (2020-06-02)
+------------------
+* Fix Qt deprecation warning (`#88 <https://github.com/ros/ros_tutorials/issues/88>`_)
+* Contributors: Jacob Perron
+
+1.2.0 (2020-05-01)
+------------------
+* Replace deprecated launch_ros usage (`#84 <https://github.com/ros/ros_tutorials/issues/84>`_)
+* Contributors: Jacob Perron
 
 1.1.1 (2020-04-16)
 ------------------

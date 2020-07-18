@@ -1,13 +1,15 @@
+name: industrial_ci (foxy)
+
 on:
   push:
     branches:
-      - eloquent-devel
+      - foxy-devel
     paths-ignore:
       - 'docs/**'
       - '**.md'
   pull_request:
     branches:
-      - eloquent-devel
+      - foxy-devel
     paths-ignore:
       - 'docs/**'
       - '**.md'
@@ -19,8 +21,8 @@ jobs:
     strategy:
       matrix:
         env:
-          - { ROS_DISTRO: eloquent, ROS_REPO: ros }
-          - { ROS_DISTRO: eloquent, ROS_REPO: testing }
+          - { ROS_DISTRO: foxy, ROS_REPO: ros }
+          - { ROS_DISTRO: foxy, ROS_REPO: testing }
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
